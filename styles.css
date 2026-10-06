@@ -17,7 +17,7 @@ body {
     line-height: 1.7;
 }
 
-h1, h2, h3 { font-family: "Fraunces", Georgia, serif; line-height: 1.2; }
+h1, h2, h3 { font-family: "Cormorant Garamond", Georgia, serif; line-height: 1.2; }
 
 /* ---------- Hero: cielo nocturno ---------- */
 .hero {
@@ -51,7 +51,7 @@ h1, h2, h3 { font-family: "Fraunces", Georgia, serif; line-height: 1.2; }
     box-shadow: 0 0 0 12px rgba(244, 185, 66, 0.15);
     display: grid;
     place-items: center;
-    background: #2a2f6e;
+    background: #884e73;
     font: 800 3.5rem "Fraunces", serif;
     color: var(--star);
 }
