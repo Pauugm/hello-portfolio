@@ -2,26 +2,73 @@
 <html>
 <head>
     <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <h1>Paula Gomez</h1>
+    <header>
+        <h1>Paula Gómez</h1>
+        <p>Estudiante de Ingeniería de Sistemas · Tecnología · Datos</p>
+    </header>
 
-    <h2>Sobre mí</h2>
-    <p>Estudiante, artista y poeta.</p>
+    <main>
 
-    <h2>Skills</h2>
-    <p>HTML · CSS · Git · GitHub</p>
+        <section id="about">
+            <h2>Sobre mí</h2>
+            <p>
+                Soy estudiante de Ingeniería de Sistemas en la Universidad de los Andes,
+                interesada en tecnología, datos y desarrollo de software.
+            </p>
+        </section>
 
-    <h2>Proyectos</h2>
-    <p>Hello Portfolio</p>
+        <section id="skills">
+            <h2>Skills</h2>
 
-    <h2>Educación</h2>
-    <p>Universidad de los Andes</p>
+            <div class="skills-container">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>JavaScript</span>
+            </div>
+        </section>
 
-    <h2>Contacto</h2>
-    <p>p.gomezm@uniandes.edu.co</p>
+        <section id="projects">
+            <h2>Proyectos</h2>
+
+            <article class="project">
+                <h3>Hello Portfolio</h3>
+                <p>
+                    Mi primer proyecto web. Estoy aprendiendo HTML, CSS,
+                    Git y GitHub.
+                </p>
+            </article>
+        </section>
+
+        <section id="education">
+            <h2>Educación</h2>
+            <p>
+                Universidad de los Andes<br>
+                Ingeniería 
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>
+                <a href="mailto:p.gomezm@uniandes.edu.co">
+                    Escríbeme
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Paula Gómez</p>
+    </footer>
 
 </body>
+
 </html>
