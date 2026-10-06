@@ -1,6 +1,6 @@
 :root {
-    --night: #1b1f4b;
-    --ink: #1a1c33;
+    --night: #66335a;
+    --ink: #331a30;
     --paper: #eeedf8;
     --card: #ffffff;
     --star: #f4b942;
@@ -17,7 +17,7 @@ body {
     line-height: 1.7;
 }
 
-h1, h2, h3 { font-family: "Cormorant Garamond", Georgia, serif; line-height: 1.2; }
+h1, h2, h3 { font-family: "Fraunces", Georgia, serif; line-height: 1.2; }
 
 /* ---------- Hero: cielo nocturno ---------- */
 .hero {
@@ -39,7 +39,12 @@ h1, h2, h3 { font-family: "Cormorant Garamond", Georgia, serif; line-height: 1.2
     padding: 90px 24px;
 }
 
-.hero h1 { font-size: clamp(2.8rem, 8vw, 5rem); font-weight: 800; }
+.hero h1 {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: clamp(3.2rem, 9vw, 6rem);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
 .role { margin: 12px 0 28px; color: #c9cbf0; max-width: 32ch; }
 
 .photo {
