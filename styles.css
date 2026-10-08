@@ -19,7 +19,6 @@ body {
 
 h1, h2, h3 { font-family: "Fraunces", Georgia, serif; line-height: 1.2; }
 
-/* ---------- Hero: cielo nocturno ---------- */
 .hero {
     background:
         radial-gradient(1.5px 1.5px at 12% 22%, #fff 50%, transparent 51%),
@@ -72,7 +71,6 @@ h1, h2, h3 { font-family: "Fraunces", Georgia, serif; line-height: 1.2; }
 }
 .btn:hover { transform: translateY(-3px); text-decoration: none; }
 
-/* ---------- Secciones ---------- */
 main { max-width: 980px; margin: 50px auto; padding: 0 20px; }
 
 section {
@@ -101,7 +99,6 @@ h2 { font-size: 1.7rem; margin-bottom: 16px; color: var(--night); }
 .activities li { border-left: 4px solid var(--star); padding-left: 16px; color: var(--muted); }
 .activities strong { display: block; color: var(--ink); }
 
-/* ---------- Tarjetas que se voltean ---------- */
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -150,7 +147,6 @@ h2 { font-size: 1.7rem; margin-bottom: 16px; color: var(--night); }
 .back a { color: var(--night); font-weight: 700; text-decoration: underline; }
 .id { font-family: monospace; font-size: 0.9rem; }
 
-/* ---------- Enlaces y pie ---------- */
 a { color: #3b3fc4; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
